@@ -1,0 +1,84 @@
+{
+  "lastModified": "1644933987130",
+  "currencies": {
+    "base": "EUR",
+    "available": ["EUR", "BGN", "GBP", "USD"],
+    "rates": {
+      "EUR": 1,
+      "BGN": 1.951,
+      "GBP": 0.84,
+      "USD": 1.135
+    }
+  },
+  "accounts": [
+    {
+      "name": "Santander",
+      "currency": "EUR",
+      "balance": 1200,
+      "transactions": [
+        {
+          "type": "expenses",
+          "amount": 140,
+          "comment": "food",
+          "date": 1644933981130
+        },
+        {
+          "type": "expenses",
+          "amount": 200,
+          "comment": "food",
+          "date": 1644613987130
+        }
+      ]
+    },
+    {
+      "name": "DSK Bank",
+      "currency": "BGN",
+      "balance": 450,
+      "transactions": [
+        {
+          "type": "expenses",
+          "amount": 200,
+          "comment": "food",
+          "date": 1641933987130
+        },
+        {
+          "type": "income",
+          "amount": 520,
+          "comment": "salary",
+          "date": 1644923947130
+        },
+        {
+          "type": "expenses",
+          "amount": 200,
+          "comment": "food",
+          "date": 1644933980130
+        }
+      ]
+    },
+    {
+      "name": "Savings",
+      "currency": "EUR",
+      "balance": 250,
+      "transactions": [
+        {
+          "type": "expenses",
+          "amount": 200,
+          "comment": "food",
+          "date": 1633933987130
+        },
+        {
+          "type": "income",
+          "amount": 520,
+          "comment": "salary",
+          "date": 1644933982230
+        },
+        {
+          "type": "income",
+          "amount": 200,
+          "comment": "bitcoin",
+          "date": 1644911987130
+        }
+      ]
+    }
+  ]
+}
